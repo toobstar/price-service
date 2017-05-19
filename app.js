@@ -50,6 +50,10 @@ function PriceService() {
         //    }
         //});
     };
+
+    var obj = {};
+    obj.fetch = fetch;
+    return obj;
 }
 
 module.exports = PriceService;
