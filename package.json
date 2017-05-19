@@ -1,7 +1,7 @@
 {
   "name": "price-service",
   "version": "0.0.1",
-  "description": "qandl based price service",
+  "description": "various price services integrations",
   "main": "app.js",
   "scripts": {
     "test": "make test"
@@ -15,9 +15,15 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "https://github.com/toobstar/functionqueue",
+  "homepage": "https://github.com/toobstar/price-service",
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "data-forge": "^0.5.3",
+    "data-forge-from-yahoo": "0.0.21",
+    "quandl": "0.0.6",
+    "yahoo-finance": "^0.2.16"
   }
 }

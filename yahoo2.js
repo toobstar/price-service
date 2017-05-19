@@ -1,5 +1,4 @@
 var request = require("request");
-
 var stock_url = "http://finance.yahoo.com/webservice/v1/symbols/FB/quote?format=json&view=%E2%80%8C%E2%80%8Bdetail";
 
 request(stock_url, function (error, response, body) {

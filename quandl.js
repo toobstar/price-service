@@ -1,4 +1,3 @@
-//console.log('Hello World');
 
 var Quandl = require("quandl");
 var quandl = new Quandl({
@@ -32,15 +31,4 @@ quandl.dataset({
     console.log(ds.start_date);
     console.log(ds.end_date);
 
-
-
 });
-
-
-//var http = require('http');
-//
-//var server = http.createServer(function(req, res) {
-//    res.writeHead(200);
-//    res.end('Hello Http');
-//});
-//server.listen(8080);
