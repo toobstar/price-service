@@ -35,8 +35,8 @@ function processBody(body) {
     }
 }
 
-PriceService.prototype = {
-    fetch: function (url, callbackFn) {
+function PriceService() {
+    var fetch = function (url, callbackFn) {
 
         var testStr = '{"NZM":{"date":"2017-05-18","close":"0.75","high":"0.75","low":"0.73","split":"","volume":45815},"SCP":{"date":"2017-05-18","close":"2.27","high":"2.29","low":"2.26","split":"","volume":4002044}}';
         callbackFn(JSON.parse(testStr));
@@ -49,7 +49,7 @@ PriceService.prototype = {
         //        callbackFn(JSON.parse(body));
         //    }
         //});
-    },
+    };
 }
 
 module.exports = PriceService;
