@@ -24,6 +24,7 @@
     "data-forge": "^0.5.3",
     "data-forge-from-yahoo": "0.0.21",
     "quandl": "0.0.6",
+    "request-json": "^0.6.2",
     "yahoo-finance": "^0.2.16"
   }
 }

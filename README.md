@@ -1,4 +1,4 @@
 # price-service
 =========
 
-Some experiments for fetching EOD price data from publicly available sites using Node.js
+Various possible implementations for fetching EOD price data via Node.js
